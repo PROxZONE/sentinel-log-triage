@@ -1,0 +1,8 @@
+{"timestamp": "2026-01-01T09:00:00Z", "source_ip": "192.0.2.10", "username": "analyst", "result": "failure"}
+{"timestamp": "2026-01-01T09:00:12Z", "source_ip": "192.0.2.10", "username": "service-user", "result": "failure"}
+{"timestamp": "2026-01-01T09:00:24Z", "source_ip": "192.0.2.10", "username": "analyst", "result": "failure"}
+{"timestamp": "2026-01-01T09:00:36Z", "source_ip": "192.0.2.10", "username": "service-user", "result": "failure"}
+{"timestamp": "2026-01-01T09:00:48Z", "source_ip": "192.0.2.10", "username": "analyst", "result": "failure"}
+{"timestamp": "2026-01-01T09:01:00Z", "source_ip": "192.0.2.10", "username": "service-user", "result": "failure"}
+{"timestamp": "2026-01-01T09:01:15Z", "source_ip": "192.0.2.10", "username": "analyst", "result": "success"}
+{"timestamp": "2026-01-01T10:00:00Z", "source_ip": "198.51.100.20", "username": "reader", "result": "success"}

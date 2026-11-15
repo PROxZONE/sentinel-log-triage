@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "parameters": {
+    "threshold": 5,
+    "window_seconds": 300
+  },
+  "total_events": 8,
+  "failed_events": 6,
+  "successful_events": 2,
+  "findings": [
+    {
+      "source_ip": "192.0.2.10",
+      "failure_count": 6,
+      "window_start": "2026-01-01T09:00:00+00:00",
+      "window_end": "2026-01-01T09:01:00+00:00",
+      "usernames": [
+        "analyst",
+        "service-user"
+      ],
+      "success_after_burst": true,
+      "interpretation": "Review the failure burst and surrounding authentication context."
+    }
+  ],
+  "limitations": "Heuristic observations; neither malicious intent nor compromise is established."
+}
